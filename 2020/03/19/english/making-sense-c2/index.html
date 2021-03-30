@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <link rel="shortcut icon" href="/resources/img/header_img/DogFace.jpg">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <title>
+        
+          Making Sense -- The Glamorous Story of English Grammar (Chapter Two) - Sherlock Blaze
+        
+    </title>
+
+    <link rel="canonical" href="https://sherlockblaze.com/2020/03/19/english/making-sense-c2/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS --> 
+    <link rel="stylesheet" href="/css/beantech.min.css">
+    
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="/css/highlight.css">
+
+    <link rel="stylesheet" href="/css/widget.css">
+
+    <link rel="stylesheet" href="/css/rocket.css">
+
+    <link rel="stylesheet" href="/css/signature.css">
+
+    <link rel="stylesheet" href="/css/toc.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+	<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url("https://source.unsplash.com/random/1280x720")
+    }
+    
+</style>
+
+<header class="intro-header">
+    <!-- Signature -->
+    <div id="signature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                
+                    <div class="post-heading">
+                        <div class="tags">
+                            
+                              <a class="tag" href="/tags/#Grammar" title="Grammar">Grammar</a>
+                            
+                        </div>
+                        <h1>Making Sense -- The Glamorous Story of English Grammar (Chapter Two)</h1>
+                        <h2 class="subheading"></h2>
+                        <span class="meta">
+                            Posted by Sherlock Blaze on
+                            2020-03-19
+                        </span>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+	
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Sherlock Blaze</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+
+                    
+
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/about/">About</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/archive/">Archives</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/community/">Community</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/tags/">Tags</a>
+                        </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Main Content -->
+    <!-- Modify by Yu-Hsuan Yen -->
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <p>References:</p>
+<ul>
+<li><a href="https://www.amazon.com/Making-Sense-Glamorous-English-Grammar/dp/0190660570" target="_blank" rel="noopener">Making Sense – The Glamorous Story of English Grammar</a></li>
+<li><a href="https://www.amazon.com/Oxford-Advanced-Learners-Dictionary-8th/dp/B00900NAFI" target="_blank" rel="noopener">Oxford Advanced Learner’s Dictionary</a></li>
+</ul>
+<h2 id="Second-steps-the-big-picture"><a href="#Second-steps-the-big-picture" class="headerlink" title="Second steps: the big picture"></a>Second steps: the big picture</h2><h3 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h3><p>Children take their next <strong><a href="#tentative">tentative</a></strong> steps along the grammar road at around eighteen months. They are becoming more active and curious. There is a whole new world to discover. Adults are beginning to talk to them about it. And they want to talk back.</p>
+<p>During the first year of life most of the interaction between adult and child is playful. <strong><a href="#engage">Engaging</a></strong> in a game of peep-bo or round-and-round-the garden is great fun, but it’s hardly a conversation. During the second year, however, the language becomes more serious, with explanations (‘That’s not a teddy, it’s an elephants’), descriptions (‘I can see a big red bus’), and warnings (Don’t touch that tap - it’s hot). To <strong><a href="#adopt">adopt</a></strong> an Internet expression: the speech directed to the child now has more content. Adults also start to <strong><a href="#amplify">amplify</a></strong> what <strong><a href="#toddler">toddlers</a></strong> are saying by <strong><a href="#expand">expanding</a></strong> their holophrases - in effect, showing them how to say more complex thing. ‘Dog,’ says the child. ‘Yes, he’s a nice dog,’ says the adult.And sooner or later, the child will have a go at the more advanced sentence: ‘Big dog.’</p>
+<p>What all this interaction does is present the child with example after example of everyday sentences. The utterances are short and to the point. Adults seem to know <strong><a href="#instinctively">instinctively</a></strong> just how long to make them. Nobody ever responds to ‘Dog’ by saying, ‘Yes, he’s a lovely big dog who barks a lot and who likes to run round the garden chasing a ball.’ The result is that children at this age repeatedly hear a set of basic sentence patterns, spoken with a similar rhythm and melody. So it’s no surprise that, once they are capable of listening, remembering, and <strong><a href="#articulate">articulating</a></strong> longer sequences of words, these patterns are going to be the ones that <strong><a href="#characterize">characterize</a></strong> their first <strong><a href="#attempt">attempts</a></strong> at more <strong><a href="#mature">mature</a></strong> sentences.</p>
+<p>The period from around eighteen months to two is often called the ‘two-word stage’, for obvious reasons when we look at this selection of typical sentences. They’re all from a child, Victoria, aged twenty-one months:</p>
+<blockquote>
+<p>baby cry        daddy gone       dolly there        gone milk<br>she drink       drink dolly      it off             that horsie</p>
+</blockquote>
+<p>What’s remarkable is that these sentences show she has already mastered the basic principle of grammar: when words com together in a sentence, they perform different roles. We can get a sense of what these roles are if we <strong><a href="#interpret">interpret</a></strong> what she’s saying in adult terms, starting with there five:</p>
+<blockquote>
+<p>baby cry                       the baby / is crying<br>daddy gone                     daddy / has just gone<br>dolly there                    dolly / is there<br>gone milk = milk gone          the milk / has just gone<br>drink dolly = dolly drink      dolly / is drinking</p>
+</blockquote>
+<p>In each sentence she introduces a topic - the name of a someone or a something - building on her earlier ability to name people or objects. Then she says something about it - usually what is happening to it or has just happened to it. In two cases, the action is going on; in two cases, the action is over; and in one case she’s reporting location (there). It’s as if she’s getting to <strong><a href="#grip">grips</a></strong> with the big picture - <strong><a href="#sketch">sketching</a></strong> out a <strong><a href="#narrative">narrative</a></strong> in the <strong><a href="#broadest">broadest</a></strong> terms.<br>&nbsp;&nbsp;Notice that she’s <strong><a href="#aware">aware</a></strong> of these roles even when she gets the word order wrong. In English, when you’re making a statement, the doer goes before the doing. (It would be the other way round in some languages, such as Welsh.) She knows very well that it’s the dolly doing the drinking. And if that’s so (I imagine her reasoning), then the meaning will come across whatever order the words come out in. Which it does, in this case. It’ll be a while before she realizes that changing the word order can change the meaning: <em>daddy push</em> is different from <em>push daddy</em>.</p>
+<p>Grammarians call the names <em>nouns</em> and the actions <em>verbs</em>. Old grammars would talk about a noun being ‘the name of a person, place or thing’ - a good start, but not a <strong><a href="#satisfactory">satisfactory</a></strong> definition, as there are lots of nouns that are none of these, such as those that refer to abstract notions (<em><a href="#conscience">conscience</a></em> politics, happiness… ). These grammars would also define verbs as ‘doing words’ - again, an <strong><a href="unsatisfactory">unsatisfactory</a></strong> definition, as there are many verbs that don’t ‘do’ anything (is, see, feel…). But these definitions do at least capture the way Victoria is thinking of words at this age. She seems to have <strong><a href="grasp">grasped</a></strong> the principle that words do different jobs in a sentence - and, one <strong><a href="#far-off">far-off</a></strong> day, when in school she starts learning about how to describe the grammar she already speaks, she will find out that these words belong to different ‘word classes’, traditionally called ‘parts of speech’.</p>
+<p>Her other sentences show that her <strong><a href="#rudimentary">rudimentary</a></strong> ideas about grammar aren’t <strong><a href="restrict">restricted</a></strong> to nouns and verbs. She already knows that there are words (such as <em>she</em>, _it_, and <em>that</em>) which save you the bother of having to name something a second time.</p>
+<blockquote>
+<p>she drink        instead of       dolly drink</p>
+</blockquote>
+<p>In school, she’ll learn to call these words <strong><a href="#pronouns">pronouns</a></strong>. And her early two-word sentences show some other grammatical notions emerging too - but more on that in Chapter 3.</p>
+<p><strong>Keywords: subject and <a href="#predicate">predicate</a></strong></p>
+<p>Victoria’s insight about the big picture - that sentences can have two parts, each part performing a different role - was also one of the first grammatical insights of the early Greek writers on language. Plato in his <strong><a href="#sophist">Sophist</a></strong> (261-2, Harold Flowler’s translation) has his Stranger introduce the subject to Theaetetus: ‘let us now <strong><a href="#investigate">investigate</a></strong> names’, and the <strong><a href="#dialogue">dialogue</a></strong> continues:</p>
+<blockquote>
+<p>Stranger: … we have two kinds of <strong><a href="#vocal">vocal</a> <a href="#indication">indications</a></strong> of being.<br>Theaetetus: How so?<br>Stranger: One called nouns(<em><a href="#onoma">onomata</a></em>), the other verbs(<em><a href="#rhema">rhemata</a></em>).<br>Theaetetus: Define each of them.<br>Stranger: The <strong><a href="#indication">indication</a></strong> which relates to action we may call a verb.<br>Theaetetus: Yes.<br>Stranger: And the <strong><a href="#vocal">vocal</a></strong> sign applied to those who perform the actions in question we can call a noun.<br>Theaetetus: Exactly.<br>Stranger: <strong><a href="#hence">Hence</a> <a href="#discourse">discourse</a></strong> is never <strong><a href="#compose">composed</a></strong> of nouns alone spoken in succession, nor of verbs spoken without nouns.</p>
+</blockquote>
+<p>To which Theaetetus, perhaps anticipating the twenty-first century, replies:</p>
+<blockquote>
+<p>Theaetetus: I do not understand that.</p>
+</blockquote>
+<p>and gets a <strong><a href="#slap">slap</a></strong> on the <strong><a href="#wrist">wrist</a></strong> for not paying attention:</p>
+<blockquote>
+<p>Stranger: I see; you <strong><a href="#evident">evidently</a></strong> had something else in mind when you <strong><a href="#assent">assented</a></strong> just now; for what I wished to say was just this, that verbs and nouns do not make <strong><a href="#discourse">discourse</a></strong> if spoken successively in this way.</p>
+</blockquote>
+<p>But Plato seems to sense that his readers do need an example.</p>
+<blockquote>
+<p>Theaetetus: In what way?<br>Stranger: For instance, ‘walks’, ‘runs’, ‘sleeps’, and the other verbs which <strong><a href="#denote">denote</a></strong> actions, even if you utter all there are of them in succession, do not make <strong><a href="#discourse">discourse</a></strong> for all that.<br>Theaetetus: No, of course not.<br>Stranger: And again, when ‘lion’, ‘stag’, ‘horse’, and all other names of those who perform these actions are uttered, such a succession of words does not yet make <strong><a href="#discourse">discourse</a></strong>; for in neither case do the words uttered indicate action or inaction or existence of anything that exists or does not exist, until the verbs are <strong><a href="#mingle">mingled</a></strong> with the nouns; then the words fit, and their first combination is a sentence, about the first and shortest form of <strong><a href="#discourse">discourse</a></strong>.</p>
+</blockquote>
+<p>The verbs have to be <strong><a href="#mingle">mingled</a></strong> with the nouns. The Stranger has, in effect, anticipated the distinction between the one-word and two-word stages of development in language acquisition. The words in isolation don’t ‘make a <strong><a href="#discourse">discourse</a></strong>‘. Only by combining them do we make sense.</p>
+<p>Translators face a problem with the two critical terms:</p>
+<p><em><a href="#rhema">rhema</a></em> - the name of an action (plural <em><a href="#rhema">rhemata</a></em>)<br><em><a href="#onoma">onoma</a></em> - the name of the one who performs the action (plural <em><a href="#onoma">onomata</a></em>)</p>
+<p>To translate them as ‘verb’ and ‘noun’ is as near as we can get, using modern <strong><a href="#terminology">terminology</a></strong>, but Plato’s distinction was based on the meaning of the two parts, and on the way they worked in sentences to express logical relationships. They aren’t ‘parts of speech’, for that kind of classification of words into classes came later (see Chapter 6).</p>
+<p>It took a while for modern grammatical <strong><a href="#terminology">terminology</a></strong> to develop. <strong><a href="#Eventually">Eventually</a></strong>, ‘the one who performs the action’ came to be called the <em>subject</em> of the sentence - a natural development of the general meaning of this word - ‘subject matter’. Everything else in the sentence was called the <em><a href="#predicate">predicate</a></em> - less obvious usage, unless you were familiar with the terms used in logic. So, the sentence <em>my uncle saw the doctor</em> would be analysed like this:</p>
+<blockquote>
+<p>My uncle / saw the doctor.<br>SUBJECT    <strong><a href="#predicate">PREDICATE</a></strong></p>
+</blockquote>
+<p>That all seems straightforward enough, but in grammar things are never entirely straightforward. This is the Great Truth about grammar: it is an art as well as a science, and it is always possible to analyse sentences in more a science, and it is always possible to analyse sentences in more than one way. Especially when the concepts and terms devised for one language come to be used for another - as here, Greek into English via Latin - there is likely to be scope fo different interpretations.</p>
+<p>Nobody disagreed about what a subject was. But there were two main differences of opinion about predicates. The first we can see if we look at the kind of sentence used in studies of logic:</p>
+<blockquote>
+<p>My uncle is a doctor.</p>
+</blockquote>
+<p>Logicians would say that <em>a doctor</em> is the <strong><a href="predicate">predicate</a></strong> - that which is said of the subject. They would ignore the verb _is_, as they saw its function to be simply a way of linking the subject to the <strong><a href="#predicate">predicate</a></strong>. They called this verb the <em><a href="#copula">copula</a></em> (from a Latin word meaning ‘fasten together’ - and yes, it is the same root as in <em><a href="copula">copulate</a></em>). If the job of the <strong><a href="#copula">copula</a></strong> was to link the two parts of the sentence, then it couldn’t be part of either.</p>
+<p>This is how the term <em><a href="#predicate">predicate</a></em> was used when it arrived in English in the fifteenth century as part of the study of logic. But a century later, when grammarians began to analyse English sentences, a problem arose:</p>
+<ul>
+<li>Some continued to think that the <strong><a href="#copula">copula</a></strong> wasn’t part of the <strong><a href="#predicate">predicate</a></strong>, on the grounds, that it had no meaning. They seemed to think of the sentence as if it were ‘my uncle - doctor’. This wouldn’t be grammatical in English (though it would in Russian), but it expresses the same meaning.</li>
+<li>Other disagreed. They thought the <strong><a href="#copula">copula</a></strong> <em>was</em> part of the <strong><a href="#predicate">predicate</a></strong>, on the grounds that it was a verb, acting like any other verb - for example, able to change its <strong><a href="#tense">tense</a></strong>:</li>
+</ul>
+<p>A. My uncle / knows a doctor. My uncle / knew a doctor.<br>B. My uncle /is a doctor.     My uncle / was a doctor.</p>
+<p>If the subject/<strong><a href="#predicate">predicate</a></strong> division is made after the word <em>uncle</em> in the A pair of sentences, it was argued, why not in the B pair? This is the way these sentences are usually analysed nowadays, but the question of where to start the <strong><a href="#predicate">predicate</a></strong> caused a lot of heart-searching among early grammarians of English.</p>
+<p>That wasn’t the only issue. What to do with longer sentences like this one?</p>
+<blockquote>
+<p>My uncle saw the doctor yesterday in London.</p>
+</blockquote>
+<p>The question here was what to do with the extra bits. <em>Yesterday</em> and <em>in London</em> could be <strong><a href="omit">omitted</a></strong> from the sentence and the sentence would still make sense. Grammarians began to call them <em><a href="#adjunct">adjuncts</a></em> (from a Latin word meaning ‘associated’ or ‘relevant’). So, how should a grammarian deal with <strong><a href="#adjunct">adjuncts</a></strong>? Were they part of the <strong><a href="#predicate">predicate</a></strong> or not? Once again, there were two options.</p>
+<ul>
+<li>Some thought the <strong><a href="#adjunct">adjuncts</a></strong> were part of the <strong><a href="#predicate">predicate</a></strong>, on the grounds that their job was to <strong><a href="#amplify">amplify</a></strong> the meaning of the verb - when did the action of seeing take place? Where did it take place? They would analyse the sentence like this:</li>
+</ul>
+<blockquote>
+<p>My uncle / saw the doctor yesterday in London/<br>SUBJECT    Predicate</p>
+</blockquote>
+<p>Just as adjectives say more about nouns, they argued - as in <em>young doctor</em> - so <strong><a href="#adjunct">adjuncts</a></strong> say more about verbs - <em>see yesterday</em>.</p>
+<ul>
+<li>Other disagreed. They thought <strong><a href="#adjunct">adjuncts</a></strong> shouldn’t be part of the <strong><a href="#predicate">predicate</a></strong>, on the grounds that they weren’t <strong><a href="#essential">essential</a></strong> to the core meaning of what’s being said - that an uncle is seeing a doctor, regardless of when or where. So they would analyse the sentence like this:</li>
+</ul>
+<blockquote>
+<p>My uncle / saw the doctor / yesterday in London.<br>SUBJECT    <strong><a href="#predicate">Predicate</a></strong>        <strong><a href="#adjunct">Adjunct</a></strong></p>
+</blockquote>
+<p>You’ll find both these views represented in grammar books today - as well as a third: that it’s better to avoid the term <em><a href="#predicate">predicate</a></em> altogether, on the grounds that it’s too broad a notion. There are so many kinds of construction in English that can be grouped under the heading of <strong><a href="#predicate">predicate</a></strong> - this view argues - that it makes more sense to study these constructions directly. I’ll take about what these are in Chapter 8, but it’s worth noting now that, despite its long history in English language study, some grammars today don’t mention the word <em><a href="#predicate">predicate</a></em> at all.</p>
+<p>Now, if you’re already asking ‘but which of these different views is correct?’ you’re not thinking like a modern grammarian. The point is that there’s a good reason to support each analysis; and what makes grammar interesting - at least, to grammarians - is <strong><a href="evaluate">evaluating</a></strong> the arguments that support one view rather than another. Some of these arguments are scientific in character, based on an assessment of the consequences that follow from taking a particular view. But - and this is the point that’s often forgotten - some are <strong><a href="#aesthetic">aesthetic</a></strong> arguments: one analysis is thought to be ‘simpler’ or ‘more satisfying’ or ‘more <strong><a href="#elegant">elegant</a></strong>‘ than another. This isn’t an issue found only in grammar, of course. Biologist Peter Medawar called his influential <strong><a href="#philosophicl">philosophical</a></strong> account of scientific method <em>The Art of the <a href="#soluble">Soluble</a>(1968)</em>.</p>
+<p>It’s this insight that is often forgotten by those in <strong><a href="#ministry">ministries</a></strong> of education around the world who think that grammar can be tested in the same way as spelling or mathematics. Schools have to teach a standard, of course, and children have to learn that standard, if their spoken and written usage is to live up to the expectations of society. Testing is a way of trying to make that happen. But it should never be forgotten that the usages that make up this standard, and the ways in which these are analysed and described, <strong><a href="#comprise">comprise</a></strong> a selection from a set of practices and opinions that are at times <strong><a href="#diverse">diverse</a></strong>. The challenge, as I’ll discuss in Chapter 25, is to find ways of testing grammar that either avoid the <strong><a href="#diversity">diversity</a></strong> or, better, build it into the educational system.</p>
+<h3 id="Words"><a href="#Words" class="headerlink" title="Words"></a>Words</h3><h4 id="tentative"><a href="#tentative" class="headerlink" title="tentative"></a>tentative</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>(of an arrangement, agreement, etc.) not definite or certain because you may want to change it later: <em>We made a tentative arrangement to meet on Friday.</em></li>
+<li>not behaving or done with confidence. <strong>SYN hesitant</strong>: <em>I’m talking the first tentative steps towards fitness.</em></li>
+</ul>
+<h4 id="engage"><a href="#engage" class="headerlink" title="engage"></a>engage</h4><blockquote>
+<p>verb.</p>
+</blockquote>
+<ul>
+<li><strong>~sth</strong> (formal) to succeed in attracting and keeping sb’s attention and interest: <em>It is a movie that engages both the mind and the eye.</em></li>
+<li><strong>~sb(as sth)|~sth|~sb to do sth</strong> (formal) to employ sb to do a particular job: <em>He is currently engaged as a <a href="#consultant">consultant</a>.</em></li>
+<li><strong>~(with sth/sb)</strong> to become involved with and try to understand sth/sb: <em>She has the ability to engage with young minds.</em></li>
+<li><strong>~sb</strong> (formal) to begin fighting with sb: <em>to engage the enemy.</em></li>
+<li>when a part of a machine engages, or when you engage it, it fits together with another part of the machine and the machine begins to work: <em>The cogwheels are not engaging.</em><ul>
+<li><strong>~with sth</strong> <em>One cogwheel engages with the next.</em></li>
+<li><strong>~sth</strong> <em>Engage the clutch before selecting a gear.</em></li>
+</ul>
+</li>
+</ul>
+<p><strong>engage in sth | engage sb in sth</strong> (formal) to take part in sth; to make sb take part in sth: <em>Even in prison, he continued to engage in criminal activities.</em></p>
+<h4 id="engaged"><a href="#engaged" class="headerlink" title="engaged"></a>engaged</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>(formal) busy doing sth<ul>
+<li><strong>~(in sth)</strong>: <em>They are engaged in talks with the Irish government.</em></li>
+<li><strong>~(on sth)</strong>: <em>He is now engaged on his second novel.</em></li>
+</ul>
+</li>
+<li>having agreed to marry sb: <em>When did you get engaged?</em><ul>
+<li><strong>~to (sb)</strong>: She’s engaged to Peter._</li>
+</ul>
+</li>
+<li>(of a telephone line) being used: <em>I couldn’t get through - the line’s engaged.</em></li>
+<li>(of a public toilet/bathroom) being used, <strong>OPP</strong> vacant</li>
+</ul>
+<h4 id="engagement"><a href="#engagement" class="headerlink" title="engagement"></a>engagement</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li><strong>BEFORE MARRIAGE</strong><ul>
+<li>an agreement to marry sb; the period during which two people are engaged: <em>Their engagement was announced in the local paper.</em><ul>
+<li><strong>~(to sb)</strong> <em>She has broken off her engagement to Charles.</em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>ARRANGEMENT TO DO STH</strong><ul>
+<li>an arrangement to do sth at a particular time, especially sth official or sth connected with your job: <em>an engagement book/diary</em></li>
+</ul>
+</li>
+<li><strong>FIGHTING</strong><ul>
+<li>(specialist) fighting between two armies, etc: <em>The general tried avoid an engagement with the enemy.</em></li>
+</ul>
+</li>
+<li><strong>BEING INVOLVED</strong><ul>
+<li><strong>~(with sb/sth)</strong> (formal) being involved with sb/sth in an attempt to understand them/it: <em>Her views are based on year of engagement with the problems of inner city.</em></li>
+</ul>
+</li>
+<li><strong>EMPLOYMENT</strong><ul>
+<li>an arrangement to employ sb; the process of employing sb: <em>The terms of engagement are to be agreed in writing.</em></li>
+</ul>
+</li>
+</ul>
+<h4 id="engagementring"><a href="#engagementring" class="headerlink" title="engagementring"></a>engagementring</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>a ring that a man gives to a woman when they agree to get married</li>
+</ul>
+<h4 id="engaging"><a href="#engaging" class="headerlink" title="engaging"></a>engaging</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>interesting or pleasant in a way that attracts your attention: <em>an engaging smile</em></li>
+</ul>
+<p><strong>engagingly</strong> adv.</p>
+<h4 id="adopt"><a href="#adopt" class="headerlink" title="adopt"></a>adopt</h4><blockquote>
+<p>verb.</p>
+</blockquote>
+<ul>
+<li><strong>CHILD</strong><ul>
+<li>to take sb else’s child into your family and become its legal parent(s): <em>a campaign to encourage childless couples to adopt.</em></li>
+<li><strong>~sb</strong> to adopt a child: <em>She was forced to have her baby adopted.</em></li>
+</ul>
+</li>
+<li><strong>METHOD</strong><ul>
+<li><strong>~sth</strong> to start to use a particular method or show a particular attitude towards sb/sth: <em>All three teams adopted different approaches to the problem.</em></li>
+</ul>
+</li>
+<li><strong>SUGGESTION</strong><ul>
+<li><strong>~sth</strong> to formally accept a suggestion or policy by voting: <em>The council is expected to adopt the new policy at its next meeting.</em></li>
+</ul>
+</li>
+<li><strong>NEW NAME/COUNTRY</strong><ul>
+<li><strong>~sth</strong> to choose a new name, a country, a custom, etc. and begin to use it as your own: <em>Early Christians in Europe adopted many of the practices of the older, pagan religions.</em></li>
+</ul>
+</li>
+<li><strong>WAY OF BEHAVING</strong><ul>
+<li><strong>~sth</strong> (formal) to use a particular manner, way of speaking, expression, etc: <em>He adopted an air of indifference.</em></li>
+</ul>
+</li>
+<li><strong>CANDIDATE</strong><ul>
+<li><strong>~sb(as sth)</strong> (politics) to choose sb as a candidate in an election or as a representative: <em>She was adopted as parliamentary candidate for Wood Green.</em></li>
+</ul>
+</li>
+</ul>
+<h4 id="adopted"><a href="#adopted" class="headerlink" title="adopted"></a>adopted</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>an adopted child has legally become part of a family which is not the one in which he or she was born: <em>Danny is their adopted son.</em></li>
+<li>an adopted country is one in which sb chooses to live although it is not the one they wre born in</li>
+</ul>
+<h4 id="adopter"><a href="#adopter" class="headerlink" title="adopter"></a>adopter</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>a person who adopts a child</li>
+<li>a person who starts using a new technology: <em>early/late adopters of social media.</em></li>
+</ul>
+<h4 id="adoption"><a href="#adoption" class="headerlink" title="adoption"></a>adoption</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>the act of adopting a child: <em>She put the baby up for adoption.</em></li>
+<li>the decision to start using sth such as an idea, a plan or a name: <em>the adoption of new technology.</em></li>
+<li>the act of choosing sb as a candidate for an election: <em>his adoption as the Labour candidate.</em></li>
+</ul>
+<h4 id="adoptive"><a href="#adoptive" class="headerlink" title="adoptive"></a>adoptive</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>[usually before noun.] an adoptive parent or family is one that has legally adopted a child.</li>
+</ul>
+<h4 id="amplify"><a href="#amplify" class="headerlink" title="amplify"></a>amplify</h4><blockquote>
+<p>verb.</p>
+</blockquote>
+<ul>
+<li><strong>~sth</strong> to increase sth in strength, especially sound: <em>to amplify a guitar/an electric current/a signal.</em></li>
+<li>(formal) to add details to a story, statement, etc: <em>She refused to amplify further.</em><br><strong>~sth</strong> <em>You may need to amplify this point.</em></li>
+</ul>
+<p><strong>amplification</strong> noun. electronic amplification: <em>That comment needs some amplification.</em></p>
+<h4 id="amplifier"><a href="#amplifier" class="headerlink" title="amplifier"></a>amplifier</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>an electrical device or piece of equipment that makes sounds or radio signals louder: <em>a 25 watt amplifier.</em></li>
+</ul>
+<h4 id="amplitude"><a href="#amplitude" class="headerlink" title="amplitude"></a>amplitude</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>the greatest distance that a wave, especially a sound or radio wave, VIBRATES(=moves up and down)</li>
+</ul>
+<h4 id="toddler"><a href="#toddler" class="headerlink" title="toddler"></a>toddler</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>a child who has only recently learnt to walk.</li>
+</ul>
+<h3 id="toddle"><a href="#toddle" class="headerlink" title="toddle"></a>toddle</h3><blockquote>
+<p>verb.</p>
+</blockquote>
+<ul>
+<li>when a young child who has just learnt to walk toddles, he/she walks with short, unsteady steps</li>
+<li><strong>(+ adv./prep.)</strong> (informal) to walk or go somewhere: <em>She toddles down to the park most afternoons.</em></li>
+</ul>
+<h4 id="toddy"><a href="#toddy" class="headerlink" title="toddy"></a>toddy</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>a drink made with strong alcohol, sugar, hot water and sometimes spices.</li>
+</ul>
+<h4 id="expand"><a href="#expand" class="headerlink" title="expand"></a>expand</h4><blockquote>
+<p>verb.</p>
+</blockquote>
+<ul>
+<li>to become greater in size, number or importance; to make sth greater in size, number or importance: <em>Metals expand when they are heated.</em> <strong>OPP contract</strong><ul>
+<li><strong>~sth</strong> <em>In breathing the chest muscles expand the rib cage and allow air to be sucked into the lungs.</em></li>
+</ul>
+</li>
+<li>if a business expands or is expanded, new branches are opened, it makes more money, etc: <em>an expanding economy(=with more businesses starting and growing)</em><ul>
+<li><strong>~sth</strong> <em>We’ve expanded the business by opening two more stores.</em></li>
+</ul>
+</li>
+<li>to talk more; to add details to what you are saying: <em>I repeated the question and waited for her to expand.</em></li>
+</ul>
+<p><strong>expand on/upon sth</strong> to say more about sth and add some details: <em>Could you expand on that point, please?</em></p>
+<h4 id="expandable"><a href="#expandable" class="headerlink" title="expandable"></a>expandable</h4><blockquote>
+<p>adj. (specialist)</p>
+</blockquote>
+<ul>
+<li>that can be expanded: <em>an expandable briefcase.</em><br><strong>~to sth</strong> <em>The system has 1GB RAM, expandable to 4GB.</em></li>
+</ul>
+<h4 id="instinct"><a href="#instinct" class="headerlink" title="instinct"></a>instinct</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li><strong>~(for sth/for doing sth)|~(to do sth)</strong> a natural tendency for people and animals to behave in a particular way using the knowledge and abilities that they were born with rather than thought or training: <em>Children do not know by instinct the difference between right and wrong.</em></li>
+<li><strong>~(that…)</strong> a feeling that makes you do sth or believe that sth is true, even though it is not based on facts or reason <strong>SYN intuition</strong>: <em>Her instincts had been right.</em></li>
+</ul>
+<h4 id="instinctive"><a href="#instinctive" class="headerlink" title="instinctive"></a>instinctive</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>based on instinct, not though or training: <em>instinctive knowledge/She’s an instinctive player.</em></li>
+</ul>
+<p><strong>instinctively</strong>, adv. : <em>He knew instinctively that something was wrong.</em></p>
+<h4 id="instinctual"><a href="#instinctual" class="headerlink" title="instinctual"></a>instinctual</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>(psychology) based on natural instinct; not learned</li>
+</ul>
+<h4 id="articulate"><a href="#articulate" class="headerlink" title="articulate"></a>articulate</h4><blockquote>
+<p>verb.</p>
+</blockquote>
+<ul>
+<li><strong>~sth(to sb)</strong> (formal) to express or explain your thoughts or feelings clearly in words: <em>She struggled to articulate her thoughts.</em></li>
+<li>to speak, pronounce or play sth in a clear way: <em>He was too drunk to articulate properly.</em></li>
+<li><strong>~(with sth)</strong> (formal)to be related to sth so that together the two parts form a whole: <em>These courses are designed to articulate with university degrees.</em></li>
+<li>(specialist) to be joined to sth else by a joint, so that movement is possible; to join sth in this way<ul>
+<li><strong>~(with sth)</strong>: <em>bones that articulate with others.</em></li>
+<li><strong>~sth</strong>: <em>a robot with articulated limbs.</em></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>(of a person) good at expressing ideas or feelings clearly in words</li>
+<li>(of speech) clearly expressed or pronounced: <em>All we could hear were loud sobs, but no articulate words.</em> <strong>OPP inarticulate</strong></li>
+</ul>
+<p><strong>articulately</strong> adv.</p>
+<h4 id="articulated"><a href="#articulated" class="headerlink" title="articulated"></a>articulated</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>(of a vehicle) with two or more sections joined together in a way that makes it easier to turn corners: <em>an articulated lorry/truck</em></li>
+</ul>
+<h4 id="articulation"><a href="#articulation" class="headerlink" title="articulation"></a>articulation</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>(formal) the expression of an idea or a feeling in words: <em>The articulation of his theory.</em></li>
+<li>(formal) the act of making sounds in speech or music: <em>The singer worked hard on the clear articulation of every note.</em></li>
+<li>(specialist) a joint or connection that allows movement.</li>
+</ul>
+<h4 id="characteristic"><a href="#characteristic" class="headerlink" title="characteristic"></a>characteristic</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li><strong>~(of sth/sb)</strong> very typical of sth or of sb’s character” <em>She spoke with characteristic enthusiasm.</em> <strong>OPP uncharacteristic</strong><br><strong>characteristically</strong>, adv.: <em>Characteristically, Helen paid for every one.</em></li>
+</ul>
+<h4 id="characterize"><a href="#characterize" class="headerlink" title="characterize"></a>characterize</h4><blockquote>
+<p>verb. (formal)</p>
+</blockquote>
+<ul>
+<li><strong>~sb/sth</strong> to be typical of a person, place, or thing: <em>the rolling hills that characterize this part of England.</em></li>
+<li><strong>~sb/sth</strong> [often passive] to give sb/sth its typical or most noticeable qualities or features: <em>The city is characterized by tall modern buildings in steel and glass.</em></li>
+<li><strong>~sb/sth(as sth)</strong> to describe or show the qualities of sb/sth in a particular way: <em>activities that are characterized as ‘male’ or ‘female’ work.</em></li>
+</ul>
+<h4 id="characterization"><a href="#characterization" class="headerlink" title="characterization"></a>characterization</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>the way that a writer makes characters in a book or play seem real</li>
+<li>(formal) the way in which sb/sth is described or defined <strong>SYN portrayal</strong>: <em>This is an unfair characterization of the Prime Minister.</em></li>
+</ul>
+<h4 id="characterless"><a href="#characterless" class="headerlink" title="characterless"></a>characterless</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>having no interesting qualities</li>
+</ul>
+<h4 id="character-recognition"><a href="#character-recognition" class="headerlink" title="character recognition"></a>character recognition</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>the ability of a computer to read numbers or letters that are printed or written by hand.</li>
+</ul>
+<h4 id="attempt"><a href="#attempt" class="headerlink" title="attempt"></a>attempt</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>an act of trying to do sth, especially sth difficult, often with no success: <em>I passed my driving test at the first attempt.</em><ul>
+<li><strong>~to do sth</strong>: <em>Two factories were closed in an attempt to cut costs.</em></li>
+<li><strong>~at sth/at doing sth</strong>: <em>The couple made an unsuccessful attempt at a compromise.</em></li>
+</ul>
+</li>
+<li><strong>~(on sb/sb’s life)</strong> an act of trying to kill sb: <em>Someone has made an attempt on the President’s life.</em></li>
+<li><strong>~(on sth)</strong> an effort to do better than sth, such as a very good performance in sport: <em>his attempt on the world land speed record.</em></li>
+</ul>
+<blockquote>
+<p>verb.</p>
+</blockquote>
+<ul>
+<li>to make an effort or try to do sth, especially sth difficult:<ul>
+<li><strong>~to do sth</strong>: <em>I will attempt to answer all your questions.</em></li>
+<li><strong>~sth</strong>: <em>The prisoners attempted an escape, but failed.</em></li>
+</ul>
+</li>
+</ul>
+<h4 id="attempted"><a href="#attempted" class="headerlink" title="attempted"></a>attempted</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>[only before noun.] (of a crime, etc.) that sb has tried to do but without success: <em>attempted rape/murder/robbery</em></li>
+</ul>
+<h4 id="mature"><a href="#mature" class="headerlink" title="mature"></a>mature</h4><blockquote>
+<p>adj. <strong>maturer</strong> is <a href="#occasionally">occasionally</a> used instead of more mature</p>
+</blockquote>
+<ul>
+<li><strong>SENSIBLE</strong><ul>
+<li>(of a child or young person) behaving in a sensible way, like an adult: <em>Jane is very mature for her age.</em> <strong>OPP immature</strong></li>
+</ul>
+</li>
+<li><strong>FULLY GROWN</strong><ul>
+<li>(of a person, a tree, a bird or an animal) fully grown and developed: <em>sexually mature.</em> <strong>OPP immature</strong> <strong>SYN at old</strong></li>
+</ul>
+</li>
+<li><strong>WINE/CHEESE</strong><ul>
+<li>developed over a period of time to produce a strong, rich flavour</li>
+</ul>
+</li>
+<li><strong>NO LONGER YOUNG</strong><ul>
+<li>used as a polite or humorous way of saying that sb is no longer young: <em>clothes for the mature woman.</em></li>
+</ul>
+</li>
+<li><strong>WORK OF ART</strong><ul>
+<li>created late in an artist’s life and showing great understanding and skill</li>
+</ul>
+</li>
+<li><strong>INSURANCE POLICY</strong><ul>
+<li>(business) ready to be paid</li>
+</ul>
+</li>
+</ul>
+<p><strong>maturely</strong> adv.</p>
+<p><strong>on mature reflection/consideration</strong>: (formal) after thinking about sth carefully and for a long time</p>
+<blockquote>
+<p>verb</p>
+</blockquote>
+<ul>
+<li><strong>BECOME FULLY GROWN</strong><ul>
+<li>to become fully grown or developed: <em>This particular breed of cattle matures early.</em></li>
+</ul>
+</li>
+<li><strong>BECOME SNESIBLE</strong><ul>
+<li>to develop emotionally and start to behave like a sensible adult: <em>He has matured a great deal over the past year.</em></li>
+</ul>
+</li>
+<li><strong>DEVELOP SKILL</strong><ul>
+<li><strong>~(into sth)</strong> to fully develop a particular skill or quality: <em>She has matured into one of the country’s finest actresses.</em></li>
+</ul>
+</li>
+<li><strong>WINE/CHEESE</strong><ul>
+<li><strong>~(sth)</strong> if wine, cheese, etc. matures or is matured, it develops over a period of time to produce a strong, rich flavour.</li>
+</ul>
+</li>
+<li><strong>INSURANCE POLICY</strong><ul>
+<li>(business) to reach the date when it must be paid</li>
+</ul>
+</li>
+</ul>
+<h4 id="mature-student"><a href="#mature-student" class="headerlink" title="mature student"></a>mature student</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>an adult student who goes to college or university some years after leaving school.</li>
+</ul>
+<h4 id="maturity"><a href="#maturity" class="headerlink" title="maturity"></a>maturity</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>the quality of thinking and behaving in a sensible, adult manner: <em>He has maturity beyond his years.</em></li>
+<li>(of a person, an animal, or a plant) the state of being fully grown or developed: <em>The forest will take 100 years to reach maturity.</em></li>
+<li>(business) (of an insurance policy, etc.) the time when money you have invested is ready to be paid.</li>
+</ul>
+<h4 id="interpret"><a href="#interpret" class="headerlink" title="interpret"></a>interpret</h4><blockquote>
+<p>verb.</p>
+</blockquote>
+<ul>
+<li><strong>~sth</strong> to explain the meaning of sth: <em>The students were asked to interpret the poem.</em></li>
+<li>to decide that sth has a particular meaning and to understand it in this way:<ul>
+<li><strong>~sth as sth</strong> <em>I didn’t know whether to interpret her silence as acceptance or refusal.</em></li>
+<li><strong>~sth</strong> <em>The data can be interpreted in many different ways.</em></li>
+</ul>
+</li>
+<li><strong>~(for sb)</strong> to translate one language into another as you hear it: <em>She couldn’t speak much English so her children had to interpret for her.</em></li>
+<li><strong>~sth</strong> to perform a piece of music, a role in a play, etc. in a way that shows your feelings about its meaning: <em>He interpreted the role with a lot of humour.</em></li>
+</ul>
+<p><strong>interpretable</strong>, adj: interpretable data</p>
+<h4 id="interpretation"><a href="#interpretation" class="headerlink" title="interpretation"></a>interpretation</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>the particular way in which sth is understood or explained: <em>Her evidence suggests a different interpretation of the events.</em></li>
+<li>the particular way in which sb chooses to perform a piece of music, a role in a play, etc: <em>a modern interpretation of ‘King Lear’</em></li>
+</ul>
+<h4 id="interpretative"><a href="#interpretative" class="headerlink" title="interpretative"></a>interpretative</h4><blockquote>
+<p>adj.</p>
+</blockquote>
+<ul>
+<li>[usually before noun] (formal) connected with the particular way in which sth is understood, explained or performed; providing an interpretation: <em>an interpretative problem.</em></li>
+</ul>
+<h4 id="interpreter"><a href="#interpreter" class="headerlink" title="interpreter"></a>interpreter</h4><blockquote>
+<p>noun.</p>
+</blockquote>
+<ul>
+<li>a person whose job is to translate what sb is saying into another language: <em>Speaking throught an interpreter, the President said that the talks were going well.</em></li>
+<li>a person who performs a piece of music or a role in a play in a way that clearly shows their ideas about its meaning: <em>She is one of the finest interpreters of Debussy’s music.</em></li>
+<li>(computing) a computer program that changes the instructions of another program into a form that the computer can understand and use.</li>
+</ul>
+<h4 id="grip"><a href="#grip" class="headerlink" title="grip"></a>grip</h4><h4 id="sketch"><a href="#sketch" class="headerlink" title="sketch"></a>sketch</h4><h4 id="narrative"><a href="#narrative" class="headerlink" title="narrative"></a>narrative</h4><h4 id="broadest"><a href="#broadest" class="headerlink" title="broadest"></a>broadest</h4><h4 id="aware"><a href="#aware" class="headerlink" title="aware"></a>aware</h4><h4 id="satisfactory"><a href="#satisfactory" class="headerlink" title="satisfactory"></a>satisfactory</h4><h4 id="conscience"><a href="#conscience" class="headerlink" title="conscience"></a>conscience</h4><h4 id="unsatisfactory"><a href="#unsatisfactory" class="headerlink" title="unsatisfactory"></a>unsatisfactory</h4><h4 id="grasp"><a href="#grasp" class="headerlink" title="grasp"></a>grasp</h4><h4 id="far-off"><a href="#far-off" class="headerlink" title="far-off"></a>far-off</h4><h4 id="rudimentary"><a href="#rudimentary" class="headerlink" title="rudimentary"></a>rudimentary</h4><h4 id="restrict"><a href="#restrict" class="headerlink" title="restrict"></a>restrict</h4><h4 id="pronouns"><a href="#pronouns" class="headerlink" title="pronouns"></a>pronouns</h4><h4 id="predicate"><a href="#predicate" class="headerlink" title="predicate"></a>predicate</h4><h4 id="sophist"><a href="#sophist" class="headerlink" title="sophist"></a>sophist</h4><h4 id="investigate"><a href="#investigate" class="headerlink" title="investigate"></a>investigate</h4><h4 id="dialogue"><a href="#dialogue" class="headerlink" title="dialogue"></a>dialogue</h4><h4 id="vocal"><a href="#vocal" class="headerlink" title="vocal"></a>vocal</h4><h4 id="indication"><a href="#indication" class="headerlink" title="indication"></a>indication</h4><h4 id="onoma"><a href="#onoma" class="headerlink" title="onoma"></a>onoma</h4><h4 id="rhema"><a href="#rhema" class="headerlink" title="rhema"></a>rhema</h4><h4 id="compose"><a href="#compose" class="headerlink" title="compose"></a>compose</h4><h4 id="slap"><a href="#slap" class="headerlink" title="slap"></a>slap</h4><h4 id="wrist"><a href="#wrist" class="headerlink" title="wrist"></a>wrist</h4><h4 id="evident"><a href="#evident" class="headerlink" title="evident"></a>evident</h4><h4 id="assent"><a href="#assent" class="headerlink" title="assent"></a>assent</h4><h4 id="denote"><a href="#denote" class="headerlink" title="denote"></a>denote</h4><h4 id="mingle"><a href="#mingle" class="headerlink" title="mingle"></a>mingle</h4><h4 id="terminology"><a href="#terminology" class="headerlink" title="terminology"></a>terminology</h4><h4 id="eventually"><a href="#eventually" class="headerlink" title="eventually"></a>eventually</h4><h4 id="copula"><a href="#copula" class="headerlink" title="copula"></a>copula</h4><h4 id="tense"><a href="#tense" class="headerlink" title="tense"></a>tense</h4><h4 id="omit"><a href="#omit" class="headerlink" title="omit"></a>omit</h4><h4 id="adjunct"><a href="#adjunct" class="headerlink" title="adjunct"></a>adjunct</h4><h4 id="amplify-1"><a href="#amplify-1" class="headerlink" title="amplify"></a>amplify</h4><h4 id="essential"><a href="#essential" class="headerlink" title="essential"></a>essential</h4><h4 id="evaluate"><a href="#evaluate" class="headerlink" title="evaluate"></a>evaluate</h4><h4 id="aesthetic"><a href="#aesthetic" class="headerlink" title="aesthetic"></a>aesthetic</h4><h4 id="elegant"><a href="#elegant" class="headerlink" title="elegant"></a>elegant</h4><h4 id="philosophical"><a href="#philosophical" class="headerlink" title="philosophical"></a>philosophical</h4><h4 id="soluble"><a href="#soluble" class="headerlink" title="soluble"></a>soluble</h4><h4 id="ministry"><a href="#ministry" class="headerlink" title="ministry"></a>ministry</h4><h4 id="comprise"><a href="#comprise" class="headerlink" title="comprise"></a>comprise</h4><h4 id="diverse"><a href="#diverse" class="headerlink" title="diverse"></a>diverse</h4><h4 id="diversity"><a href="#diversity" class="headerlink" title="diversity"></a>diversity</h4><h4 id="consultant"><a href="#consultant" class="headerlink" title="consultant"></a>consultant</h4><h4 id="clutch"><a href="#clutch" class="headerlink" title="clutch"></a>clutch</h4><h4 id="gear"><a href="#gear" class="headerlink" title="gear"></a>gear</h4><h4 id="campaign"><a href="#campaign" class="headerlink" title="campaign"></a>campaign</h4><h4 id="enthusiasm"><a href="#enthusiasm" class="headerlink" title="enthusiasm"></a>enthusiasm</h4><h4 id="occasionally"><a href="#occasionally" class="headerlink" title="occasionally"></a>occasionally</h4>
+                
+                <hr>
+                <!-- Pager -->
+                <ul class="pager">
+                    
+                        <li class="previous">
+                            <a href="/2020/03/19/english/making-sense-c1/" data-toggle="tooltip" data-placement="top" title="Making Sense -- The Glamorous Story of English Grammar (Chapter One)">&larr; Previous Post</a>
+                        </li>
+                    
+                    
+                        <li class="next">
+                            <a href="/2020/02/14/books/委屈成就伟大-商界精英给年轻人的12个忠告/" data-toggle="tooltip" data-placement="top" title="委屈成就伟大-商界精英给年轻人的12个忠告">Next Post &rarr;</a>
+                        </li>
+                    
+                </ul>
+
+                <div class="comments" id="comments"></div>
+
+                <br>                      
+            </div>
+            
+            <!-- Table of Contents -->
+<aside id="sidebar">
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    
+      <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Second-steps-the-big-picture"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">Second steps: the big picture</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Content"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">Content</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Words"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">Words</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#tentative"><span class="toc-nav-number">1.2.1.</span> <span class="toc-nav-text">tentative</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#engage"><span class="toc-nav-number">1.2.2.</span> <span class="toc-nav-text">engage</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#engaged"><span class="toc-nav-number">1.2.3.</span> <span class="toc-nav-text">engaged</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#engagement"><span class="toc-nav-number">1.2.4.</span> <span class="toc-nav-text">engagement</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#engagementring"><span class="toc-nav-number">1.2.5.</span> <span class="toc-nav-text">engagementring</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#engaging"><span class="toc-nav-number">1.2.6.</span> <span class="toc-nav-text">engaging</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#adopt"><span class="toc-nav-number">1.2.7.</span> <span class="toc-nav-text">adopt</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#adopted"><span class="toc-nav-number">1.2.8.</span> <span class="toc-nav-text">adopted</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#adopter"><span class="toc-nav-number">1.2.9.</span> <span class="toc-nav-text">adopter</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#adoption"><span class="toc-nav-number">1.2.10.</span> <span class="toc-nav-text">adoption</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#adoptive"><span class="toc-nav-number">1.2.11.</span> <span class="toc-nav-text">adoptive</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#amplify"><span class="toc-nav-number">1.2.12.</span> <span class="toc-nav-text">amplify</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#amplifier"><span class="toc-nav-number">1.2.13.</span> <span class="toc-nav-text">amplifier</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#amplitude"><span class="toc-nav-number">1.2.14.</span> <span class="toc-nav-text">amplitude</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#toddler"><span class="toc-nav-number">1.2.15.</span> <span class="toc-nav-text">toddler</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#toddle"><span class="toc-nav-number">1.3.</span> <span class="toc-nav-text">toddle</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#toddy"><span class="toc-nav-number">1.3.1.</span> <span class="toc-nav-text">toddy</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#expand"><span class="toc-nav-number">1.3.2.</span> <span class="toc-nav-text">expand</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#expandable"><span class="toc-nav-number">1.3.3.</span> <span class="toc-nav-text">expandable</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#instinct"><span class="toc-nav-number">1.3.4.</span> <span class="toc-nav-text">instinct</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#instinctive"><span class="toc-nav-number">1.3.5.</span> <span class="toc-nav-text">instinctive</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#instinctual"><span class="toc-nav-number">1.3.6.</span> <span class="toc-nav-text">instinctual</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#articulate"><span class="toc-nav-number">1.3.7.</span> <span class="toc-nav-text">articulate</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#articulated"><span class="toc-nav-number">1.3.8.</span> <span class="toc-nav-text">articulated</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#articulation"><span class="toc-nav-number">1.3.9.</span> <span class="toc-nav-text">articulation</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#characteristic"><span class="toc-nav-number">1.3.10.</span> <span class="toc-nav-text">characteristic</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#characterize"><span class="toc-nav-number">1.3.11.</span> <span class="toc-nav-text">characterize</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#characterization"><span class="toc-nav-number">1.3.12.</span> <span class="toc-nav-text">characterization</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#characterless"><span class="toc-nav-number">1.3.13.</span> <span class="toc-nav-text">characterless</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#character-recognition"><span class="toc-nav-number">1.3.14.</span> <span class="toc-nav-text">character recognition</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#attempt"><span class="toc-nav-number">1.3.15.</span> <span class="toc-nav-text">attempt</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#attempted"><span class="toc-nav-number">1.3.16.</span> <span class="toc-nav-text">attempted</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#mature"><span class="toc-nav-number">1.3.17.</span> <span class="toc-nav-text">mature</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#mature-student"><span class="toc-nav-number">1.3.18.</span> <span class="toc-nav-text">mature student</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#maturity"><span class="toc-nav-number">1.3.19.</span> <span class="toc-nav-text">maturity</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#interpret"><span class="toc-nav-number">1.3.20.</span> <span class="toc-nav-text">interpret</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#interpretation"><span class="toc-nav-number">1.3.21.</span> <span class="toc-nav-text">interpretation</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#interpretative"><span class="toc-nav-number">1.3.22.</span> <span class="toc-nav-text">interpretative</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#interpreter"><span class="toc-nav-number">1.3.23.</span> <span class="toc-nav-text">interpreter</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#grip"><span class="toc-nav-number">1.3.24.</span> <span class="toc-nav-text">grip</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#sketch"><span class="toc-nav-number">1.3.25.</span> <span class="toc-nav-text">sketch</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#narrative"><span class="toc-nav-number">1.3.26.</span> <span class="toc-nav-text">narrative</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#broadest"><span class="toc-nav-number">1.3.27.</span> <span class="toc-nav-text">broadest</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#aware"><span class="toc-nav-number">1.3.28.</span> <span class="toc-nav-text">aware</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#satisfactory"><span class="toc-nav-number">1.3.29.</span> <span class="toc-nav-text">satisfactory</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#conscience"><span class="toc-nav-number">1.3.30.</span> <span class="toc-nav-text">conscience</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#unsatisfactory"><span class="toc-nav-number">1.3.31.</span> <span class="toc-nav-text">unsatisfactory</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#grasp"><span class="toc-nav-number">1.3.32.</span> <span class="toc-nav-text">grasp</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#far-off"><span class="toc-nav-number">1.3.33.</span> <span class="toc-nav-text">far-off</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#rudimentary"><span class="toc-nav-number">1.3.34.</span> <span class="toc-nav-text">rudimentary</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#restrict"><span class="toc-nav-number">1.3.35.</span> <span class="toc-nav-text">restrict</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#pronouns"><span class="toc-nav-number">1.3.36.</span> <span class="toc-nav-text">pronouns</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#predicate"><span class="toc-nav-number">1.3.37.</span> <span class="toc-nav-text">predicate</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#sophist"><span class="toc-nav-number">1.3.38.</span> <span class="toc-nav-text">sophist</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#investigate"><span class="toc-nav-number">1.3.39.</span> <span class="toc-nav-text">investigate</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#dialogue"><span class="toc-nav-number">1.3.40.</span> <span class="toc-nav-text">dialogue</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#vocal"><span class="toc-nav-number">1.3.41.</span> <span class="toc-nav-text">vocal</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#indication"><span class="toc-nav-number">1.3.42.</span> <span class="toc-nav-text">indication</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#onoma"><span class="toc-nav-number">1.3.43.</span> <span class="toc-nav-text">onoma</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#rhema"><span class="toc-nav-number">1.3.44.</span> <span class="toc-nav-text">rhema</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#compose"><span class="toc-nav-number">1.3.45.</span> <span class="toc-nav-text">compose</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#slap"><span class="toc-nav-number">1.3.46.</span> <span class="toc-nav-text">slap</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#wrist"><span class="toc-nav-number">1.3.47.</span> <span class="toc-nav-text">wrist</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#evident"><span class="toc-nav-number">1.3.48.</span> <span class="toc-nav-text">evident</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#assent"><span class="toc-nav-number">1.3.49.</span> <span class="toc-nav-text">assent</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#denote"><span class="toc-nav-number">1.3.50.</span> <span class="toc-nav-text">denote</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#mingle"><span class="toc-nav-number">1.3.51.</span> <span class="toc-nav-text">mingle</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#terminology"><span class="toc-nav-number">1.3.52.</span> <span class="toc-nav-text">terminology</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#eventually"><span class="toc-nav-number">1.3.53.</span> <span class="toc-nav-text">eventually</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#copula"><span class="toc-nav-number">1.3.54.</span> <span class="toc-nav-text">copula</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#tense"><span class="toc-nav-number">1.3.55.</span> <span class="toc-nav-text">tense</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#omit"><span class="toc-nav-number">1.3.56.</span> <span class="toc-nav-text">omit</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#adjunct"><span class="toc-nav-number">1.3.57.</span> <span class="toc-nav-text">adjunct</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#amplify-1"><span class="toc-nav-number">1.3.58.</span> <span class="toc-nav-text">amplify</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#essential"><span class="toc-nav-number">1.3.59.</span> <span class="toc-nav-text">essential</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#evaluate"><span class="toc-nav-number">1.3.60.</span> <span class="toc-nav-text">evaluate</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#aesthetic"><span class="toc-nav-number">1.3.61.</span> <span class="toc-nav-text">aesthetic</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#elegant"><span class="toc-nav-number">1.3.62.</span> <span class="toc-nav-text">elegant</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#philosophical"><span class="toc-nav-number">1.3.63.</span> <span class="toc-nav-text">philosophical</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#soluble"><span class="toc-nav-number">1.3.64.</span> <span class="toc-nav-text">soluble</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#ministry"><span class="toc-nav-number">1.3.65.</span> <span class="toc-nav-text">ministry</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#comprise"><span class="toc-nav-number">1.3.66.</span> <span class="toc-nav-text">comprise</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#diverse"><span class="toc-nav-number">1.3.67.</span> <span class="toc-nav-text">diverse</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#diversity"><span class="toc-nav-number">1.3.68.</span> <span class="toc-nav-text">diversity</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#consultant"><span class="toc-nav-number">1.3.69.</span> <span class="toc-nav-text">consultant</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#clutch"><span class="toc-nav-number">1.3.70.</span> <span class="toc-nav-text">clutch</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#gear"><span class="toc-nav-number">1.3.71.</span> <span class="toc-nav-text">gear</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#campaign"><span class="toc-nav-number">1.3.72.</span> <span class="toc-nav-text">campaign</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#enthusiasm"><span class="toc-nav-number">1.3.73.</span> <span class="toc-nav-text">enthusiasm</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#occasionally"><span class="toc-nav-number">1.3.74.</span> <span class="toc-nav-text">occasionally</span></a></li></ol></li></ol></li></ol>
+    
+    </div>
+</aside>
+
+                
+            <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                       
+                          <a class="tag" href="/tags/#Grammar" title="Grammar">Grammar</a>
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+
+                    
+                        <li><a href="https://chaoscoffee.github.io/" target="_blank">ChaosCoffee&#39;s Blog</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<link rel="stylesheet" href="/css/valine.css">
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script type="text/javascript">
+    // Use import
+    // or Use require
+    var GUEST = ['nick','mail','link'];
+    var guest = "nick,mail,link";
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: true,
+        notify: false,
+        appId: 'zft6KmhKY69FtUwIJFY5XJo5-gzGzoHsz',
+        appKey: 'KhPyX7dVWp6nYvU3iK8OoOlS',
+        visitor: true,
+        placeholder: 'Let us talk more!!',
+        avatar: 'wavatar',
+        guest_info: guest,
+        pageSize: '10' || 10,
+        lang: 'en'
+    });
+</script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'left',
+          icon: 'ℬ'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                
+                
+                
+
+                
+
+                
+
+                
+                    <li>
+                        <a target="_blank" href="https://github.com/sherlockblaze">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+
+                
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/jam-blaze-606ab3163">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+                
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/sherlockblaze_007">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                
+
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Sherlock Blaze 2021 
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js"></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("https://sherlockblaze.com/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133187385-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133187385-1');
+</script>
+
+<!-- -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?4d1398d2e890275832d6fd932eb0e2e1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+	<a id="rocket" href="#top" class=""></a>
+	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+    <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
+
+</body>
+
+</html>
